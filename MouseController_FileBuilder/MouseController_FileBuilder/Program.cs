@@ -23,7 +23,7 @@ namespace MouseController_FileBuilder
                 }
                 else if (arg.Split(new char[] { '=' })[0] == "/output")
                 {
-                    inputFile = arg.Split(new char[] { '=' })[1];
+                    outputFile = arg.Split(new char[] { '=' })[1];
                 }
             }
 
